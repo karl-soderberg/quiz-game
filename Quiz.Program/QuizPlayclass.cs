@@ -8,12 +8,12 @@ public static class QuizPlayclass
         var input = Console.ReadLine();
         if (input == "c" || input == "C")
         {
-            Console.WriteLine("Correct! The answer is C:8");
+            Console.WriteLine("Correct! The answer is C:8\n\n");
             return 1;
         }
         else 
         {
-            Console.WriteLine("Wrong! The answer is C:8");
+            Console.WriteLine("Wrong! The answer is C:8\n\n");
             return 0;
         }
     }
@@ -25,12 +25,12 @@ public static class QuizPlayclass
         var input = Console.ReadLine();
         if (input == "a" || input == "A")
         {
-            Console.WriteLine("Correct! The answer is A:Venus");
+            Console.WriteLine("Correct! The answer is A:Venus\n\n");
             return 1;
         }
         else
         {
-            Console.WriteLine("Wrong! The answer is A:Venus");
+            Console.WriteLine("Wrong! The answer is A:Venus\n\n");
             return 0;
         }
     }
@@ -43,12 +43,12 @@ public static class QuizPlayclass
         var input = Console.ReadLine();
         if (input == "d" || input == "D")
         {
-            Console.WriteLine("Correct! The answer is D:Mars");
+            Console.WriteLine("Correct! The answer is D:Mars\n\n");
             return 1;
         }
         else
         {
-            Console.WriteLine("Wrong! The answer is D:Mars");
+            Console.WriteLine("Wrong! The answer is D:Mars\n\n");
             return 0;
         }
     }
@@ -61,12 +61,12 @@ public static class QuizPlayclass
         var input = Console.ReadLine();
         if (input == "d" || input == "D")
         {
-            Console.WriteLine("Correct! The answer is B:Jupiter");
+            Console.WriteLine("Correct! The answer is B:Jupiter\n\n");
             return 1;
         }
         else
         {
-            Console.WriteLine("Wrong! The answer is B:Jupiter");
+            Console.WriteLine("Wrong! The answer is B:Jupiter\n\n");
             return 0;
         }
     }
@@ -79,12 +79,12 @@ public static class QuizPlayclass
         var input = Console.ReadLine();
         if (input == "d" || input == "D")
         {
-            Console.WriteLine("Correct! The answer is A:Black hole");
+            Console.WriteLine("Correct! The answer is A:Black hole\n\n");
             return 1;
         }
         else
         {
-            Console.WriteLine("Wrong! The answer is A:Black hole");
+            Console.WriteLine("Wrong! The answer is A:Black hole\n\n");
             return 0;
         }
     }

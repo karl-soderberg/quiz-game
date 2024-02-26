@@ -22,32 +22,23 @@
 //         }
 //     },
 // };
-// static int Question1()
-// {
-//     Console.WriteLine("How many planets are there in the solarsystem?");
-//     Console.WriteLine("A:7 \nB:9 \nC:8 \nD:10\n");
-//     Console.WriteLine("Select option 'A', 'B', 'C' or 'D'");
-//     var input = Console.ReadLine();
-//     if (input == "c" || input == "C")
-//     {
-//         Console.WriteLine("Correct! The answer is C:8");
-//         return 1;
-//     }
-//     else 
-//     {
-//         Console.WriteLine("Wrong! The answer is C:8");
-//         return 0;
-//     }
-// }
-
 
 int i = 1;
 while(i==1)
 {
     int score = 0;
+    Console.WriteLine("\nWelcome to this stellar quiz! Lets quiz it up \n");
+    int milliseconds = 1500;
+    Thread.Sleep(milliseconds);
     score +=QuizPlayclass.Question1();
+    Thread.Sleep(milliseconds);
     score += QuizPlayclass.Question2();
+    Thread.Sleep(milliseconds);
     score += QuizPlayclass.Question3();
+    Thread.Sleep(milliseconds);
+    score += QuizPlayclass.Question4();
+    Thread.Sleep(milliseconds);
+    score += QuizPlayclass.Question5();
 
     Console.WriteLine($"Well Done! Your score is '{score}'");
     i ++;

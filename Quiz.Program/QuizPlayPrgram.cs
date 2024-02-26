@@ -47,6 +47,7 @@ while(i==1)
     int score = 0;
     score +=QuizPlayclass.Question1();
     score += QuizPlayclass.Question2();
+    score += QuizPlayclass.Question3();
 
     Console.WriteLine($"Well Done! Your score is '{score}'");
     i ++;
